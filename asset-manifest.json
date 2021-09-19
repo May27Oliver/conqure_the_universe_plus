@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/conqure_the_universe_plus/static/css/main.f8382fcc.chunk.css",
+    "main.js": "/conqure_the_universe_plus/static/js/main.f9c28ddb.chunk.js",
+    "main.js.map": "/conqure_the_universe_plus/static/js/main.f9c28ddb.chunk.js.map",
+    "runtime-main.js": "/conqure_the_universe_plus/static/js/runtime-main.23877384.js",
+    "runtime-main.js.map": "/conqure_the_universe_plus/static/js/runtime-main.23877384.js.map",
+    "static/js/2.fb72d4d2.chunk.js": "/conqure_the_universe_plus/static/js/2.fb72d4d2.chunk.js",
+    "static/js/2.fb72d4d2.chunk.js.map": "/conqure_the_universe_plus/static/js/2.fb72d4d2.chunk.js.map",
+    "static/js/3.76dc68f5.chunk.js": "/conqure_the_universe_plus/static/js/3.76dc68f5.chunk.js",
+    "static/js/3.76dc68f5.chunk.js.map": "/conqure_the_universe_plus/static/js/3.76dc68f5.chunk.js.map",
+    "index.html": "/conqure_the_universe_plus/index.html",
+    "static/css/main.f8382fcc.chunk.css.map": "/conqure_the_universe_plus/static/css/main.f8382fcc.chunk.css.map",
+    "static/js/2.fb72d4d2.chunk.js.LICENSE.txt": "/conqure_the_universe_plus/static/js/2.fb72d4d2.chunk.js.LICENSE.txt",
+    "static/media/OneEye.7237b50a.png": "/conqure_the_universe_plus/static/media/OneEye.7237b50a.png",
+    "static/media/fat.c1235031.png": "/conqure_the_universe_plus/static/media/fat.c1235031.png",
+    "static/media/index.css": "/conqure_the_universe_plus/static/media/logo.f682b0aa.png",
+    "static/media/rabbit.0fde070b.png": "/conqure_the_universe_plus/static/media/rabbit.0fde070b.png",
+    "static/media/star.869ea8ca.png": "/conqure_the_universe_plus/static/media/star.869ea8ca.png",
+    "static/media/star2.31baca64.png": "/conqure_the_universe_plus/static/media/star2.31baca64.png",
+    "static/media/star3.9a55e818.png": "/conqure_the_universe_plus/static/media/star3.9a55e818.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.23877384.js",
+    "static/js/2.fb72d4d2.chunk.js",
+    "static/css/main.f8382fcc.chunk.css",
+    "static/js/main.f9c28ddb.chunk.js"
+  ]
+}
