@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { gsap, Bounce, Power2, Power1 } from "gsap";
+
+// component
 import HomepageHeader from "component/HomepageHeader";
 import Footer from "component/Footer";
+
+// assets
 import Star1 from "image/home_img/star.png";
 import Star2 from "image/home_img/star2.png";
 import Star3 from "image/home_img/star3.png";
@@ -76,6 +81,33 @@ const HomeStars: React.FC = () => {
 };
 
 const Stage: React.FC = () => {
+  const rabbitRef = React.useRef<HTMLDivElement | null>(null);
+  const fattyRef = React.useRef<HTMLDivElement | null>(null);
+  const patrickRef = React.useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    gsap.to(rabbitRef.current, 1, {
+      repeat: -1,
+      yoyo: true,
+      ease: Bounce.easeOut,
+      y: -30,
+    });
+    gsap.to(fattyRef.current, 4, {
+      repeat: -1,
+      yoyo: true,
+      repeatDelay: 2,
+      rotate: 360,
+      ease: Power2.easeOut,
+      y: -100,
+    });
+    gsap.to(patrickRef.current, 0.5, {
+      repeat: -1,
+      yoyo: true,
+      ease: Power1.easeInOut,
+      y: -30,
+    });
+  });
+
   return (
     <>
       <div
@@ -88,7 +120,7 @@ const Stage: React.FC = () => {
             <p className="w-full text-center text-white">支持度</p>
           </div>
           <div className="stageText" id="stage2">
-            <div className="AlienImg relative">
+            <div className="AlienImg relative" ref={fattyRef}>
               <img src={Fatty} alt="外星人" id="roleImg2" />
             </div>
             <div className="StageLeft relative">
@@ -106,7 +138,7 @@ const Stage: React.FC = () => {
             <p className="w-full text-center text-white">支持度</p>
           </div>
           <div className="stageText">
-            <div className="AlienImg relative">
+            <div className="AlienImg relative" ref={rabbitRef}>
               <img src={Rabbit} alt="外星人" id="roleImg1" />
             </div>
             <div className="StageMid relative">
@@ -124,7 +156,7 @@ const Stage: React.FC = () => {
             <p className="w-full text-center text-white">支持度</p>
           </div>
           <div className="stageText" id="stage3">
-            <div className="AlienImg relative">
+            <div className="AlienImg relative" ref={patrickRef}>
               <img src={PatrikStar} alt="外星人" id="roleImg3" />
             </div>
             <div className="StageRight relative">
