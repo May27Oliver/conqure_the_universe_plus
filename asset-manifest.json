@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/conqure_the_universe_plus/static/css/main.5d270bfd.chunk.css",
-    "main.js": "/conqure_the_universe_plus/static/js/main.31e64189.chunk.js",
-    "main.js.map": "/conqure_the_universe_plus/static/js/main.31e64189.chunk.js.map",
-    "runtime-main.js": "/conqure_the_universe_plus/static/js/runtime-main.34c5755a.js",
-    "runtime-main.js.map": "/conqure_the_universe_plus/static/js/runtime-main.34c5755a.js.map",
-    "static/js/2.8641dc5e.chunk.js": "/conqure_the_universe_plus/static/js/2.8641dc5e.chunk.js",
-    "static/js/2.8641dc5e.chunk.js.map": "/conqure_the_universe_plus/static/js/2.8641dc5e.chunk.js.map",
-    "static/js/3.809c4d9a.chunk.js": "/conqure_the_universe_plus/static/js/3.809c4d9a.chunk.js",
-    "static/js/3.809c4d9a.chunk.js.map": "/conqure_the_universe_plus/static/js/3.809c4d9a.chunk.js.map",
+    "main.js": "/conqure_the_universe_plus/static/js/main.7d12f538.chunk.js",
+    "main.js.map": "/conqure_the_universe_plus/static/js/main.7d12f538.chunk.js.map",
+    "runtime-main.js": "/conqure_the_universe_plus/static/js/runtime-main.28c8d042.js",
+    "runtime-main.js.map": "/conqure_the_universe_plus/static/js/runtime-main.28c8d042.js.map",
+    "static/js/2.2ce65a09.chunk.js": "/conqure_the_universe_plus/static/js/2.2ce65a09.chunk.js",
+    "static/js/2.2ce65a09.chunk.js.map": "/conqure_the_universe_plus/static/js/2.2ce65a09.chunk.js.map",
+    "static/js/3.8a615af1.chunk.js": "/conqure_the_universe_plus/static/js/3.8a615af1.chunk.js",
+    "static/js/3.8a615af1.chunk.js.map": "/conqure_the_universe_plus/static/js/3.8a615af1.chunk.js.map",
     "index.html": "/conqure_the_universe_plus/index.html",
     "static/css/main.5d270bfd.chunk.css.map": "/conqure_the_universe_plus/static/css/main.5d270bfd.chunk.css.map",
-    "static/js/2.8641dc5e.chunk.js.LICENSE.txt": "/conqure_the_universe_plus/static/js/2.8641dc5e.chunk.js.LICENSE.txt",
+    "static/js/2.2ce65a09.chunk.js.LICENSE.txt": "/conqure_the_universe_plus/static/js/2.2ce65a09.chunk.js.LICENSE.txt",
     "static/media/OneEye.7237b50a.png": "/conqure_the_universe_plus/static/media/OneEye.7237b50a.png",
     "static/media/fat.c1235031.png": "/conqure_the_universe_plus/static/media/fat.c1235031.png",
     "static/media/index.css": "/conqure_the_universe_plus/static/media/logo.f682b0aa.png",
@@ -21,9 +21,9 @@
     "static/media/star3.9a55e818.png": "/conqure_the_universe_plus/static/media/star3.9a55e818.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.34c5755a.js",
-    "static/js/2.8641dc5e.chunk.js",
+    "static/js/runtime-main.28c8d042.js",
+    "static/js/2.2ce65a09.chunk.js",
     "static/css/main.5d270bfd.chunk.css",
-    "static/js/main.31e64189.chunk.js"
+    "static/js/main.7d12f538.chunk.js"
   ]
 }
