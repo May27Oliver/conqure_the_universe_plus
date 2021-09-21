@@ -1,11 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Homepage from "./container/Homepage";
-import ActivityPage from "./container/ActivityPage";
-import DissPage from "./container/DissPage";
-import RankPage from "./container/RankPage";
+import NewsPage from "./container/NewsPage";
+import VideoPage from "./container/VideoPage";
+import VotePage from "./container/VotePage";
+import MemberPage from "./container/MemberPage";
+import ShoppingPage from "./container/ShoppingPage";
 
 const App: React.FC = () => {
   return (
@@ -13,9 +14,11 @@ const App: React.FC = () => {
       <Router>
         <Switch>
           <Route exact path="/" component={Homepage} />
-          <Route exact path="/ActivityPage" component={ActivityPage} />
-          <Route exact path="/DissPage" component={DissPage} />
-          <Route exact path="/RankPage" component={RankPage} />
+          <Route exact path="/NewsPage" component={NewsPage} />
+          <Route exact path="/VideoPage" component={VideoPage} />
+          <Route exact path="/VotePage" component={VotePage} />
+          <Route exact path="/MemberPage" component={MemberPage} />
+          <Route exact path="/ShoppingPage" component={ShoppingPage} />
         </Switch>
       </Router>
     </div>

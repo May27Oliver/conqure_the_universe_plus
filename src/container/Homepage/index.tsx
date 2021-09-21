@@ -11,7 +11,6 @@ import StageLeft from "image/home_img/stageB2.png";
 import StageMid from "image/home_img/stageR1.png";
 import StageRight from "image/home_img/stageY3.png";
 import "./index.module.css";
-import homeFooter from "image/home_img/homeFooter.png";
 
 const Homepage: React.FC = (props) => {
   return (
@@ -78,65 +77,75 @@ const HomeStars: React.FC = () => {
 
 const Stage: React.FC = () => {
   return (
-    <div
-      className="WinnerStage w-full flex flex-row justify-center items-end relative z-20"
-      style={{ top: "-20rem" }}
-    >
-      <div className="Winner w-52 relative">
-        <div className="Planet-title mb-10">
-          <p className="w-full text-center text-white">肥宅星</p>
-          <p className="w-full text-center text-white">支持度</p>
-        </div>
-        <div className="stageText" id="stage2">
-          <div className="AlienImg relative">
-            <img src={Fatty} alt="外星人" id="roleImg2" />
+    <>
+      <div
+        className="WinnerStage w-full flex flex-row justify-center items-end relative z-50"
+        style={{ top: "-20rem" }}
+      >
+        <div className="Winner w-52 relative">
+          <div className="Planet-title mb-10">
+            <p className="w-full text-center text-white">肥宅星</p>
+            <p className="w-full text-center text-white">支持度</p>
           </div>
-          <div className="StageLeft relative">
-            <p className="absolute w-full top-10 text-center">口業橋引路人</p>
-            <img src={StageLeft} alt="stage" />
-            <p className="w-full text-center absolute bottom-5 text-xl font-semibold">
-              2
-            </p>
+          <div className="stageText" id="stage2">
+            <div className="AlienImg relative">
+              <img src={Fatty} alt="外星人" id="roleImg2" />
+            </div>
+            <div className="StageLeft relative">
+              <p className="absolute w-full top-10 text-center">口業橋引路人</p>
+              <img src={StageLeft} alt="stage" />
+              <p className="w-full text-center absolute bottom-5 text-xl font-semibold">
+                2
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="Winner w-52 relative">
+          <div className="Planet-title mb-10">
+            <p className="w-full text-center text-white">兔兔星</p>
+            <p className="w-full text-center text-white">支持度</p>
+          </div>
+          <div className="stageText">
+            <div className="AlienImg relative">
+              <img src={Rabbit} alt="外星人" id="roleImg1" />
+            </div>
+            <div className="StageMid relative">
+              <p className="absolute w-full top-10 text-center">閃電除除子</p>
+              <img src={StageMid} alt="" />
+              <p className="w-full text-center absolute bottom-5 text-xl font-semibold">
+                1
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="Winner w-52 relative">
+          <div className="Planet-title mb-10">
+            <p className="w-full text-center text-white">派大星</p>
+            <p className="w-full text-center text-white">支持度</p>
+          </div>
+          <div className="stageText" id="stage3">
+            <div className="AlienImg relative">
+              <img src={PatrikStar} alt="外星人" id="roleImg3" />
+            </div>
+            <div className="StageRight relative">
+              <p className="absolute w-full top-10 text-center">美達</p>
+              <img src={StageRight} alt="" />
+              <p className="w-full text-center absolute bottom-5 text-xl font-semibold">
+                3
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      <div className="Winner w-52 relative">
-        <div className="Planet-title mb-10">
-          <p className="w-full text-center text-white">兔兔星</p>
-          <p className="w-full text-center text-white">支持度</p>
-        </div>
-        <div className="stageText">
-          <div className="AlienImg relative">
-            <img src={Rabbit} alt="外星人" id="roleImg1" />
-          </div>
-          <div className="StageMid relative">
-            <p className="absolute w-full top-10 text-center">閃電除除子</p>
-            <img src={StageMid} alt="" />
-            <p className="w-full text-center absolute bottom-5 text-xl font-semibold">
-              1
-            </p>
-          </div>
+      <div className="relative z-50" style={{ top: "-18rem" }}>
+        <h3 className="text-center font-semibold text-xl leading-10">
+          《上季總排名》
+        </h3>
+        <div className="text-center font-semibold text-lg">
+          每週將統計個星球支持度，支持度最高之星球候選人即成為宇宙大總統。
         </div>
       </div>
-      <div className="Winner w-52 relative">
-        <div className="Planet-title mb-10">
-          <p className="w-full text-center text-white">派大星</p>
-          <p className="w-full text-center text-white">支持度</p>
-        </div>
-        <div className="stageText" id="stage3">
-          <div className="AlienImg relative">
-            <img src={PatrikStar} alt="外星人" id="roleImg3" />
-          </div>
-          <div className="StageRight relative">
-            <p className="absolute w-full top-10 text-center">美達</p>
-            <img src={StageRight} alt="" />
-            <p className="w-full text-center absolute bottom-5 text-xl font-semibold">
-              3
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </>
   );
 };
 

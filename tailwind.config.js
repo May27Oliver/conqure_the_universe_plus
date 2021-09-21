@@ -7,8 +7,8 @@ module.exports = {
       backgroundColor: {
         rankForAllColor: "#66BAB7",
         rankForAllInnerSection: "#A5DEE4",
-        rankForFirstColor: "#B54434",
-        rankForFirstInnerSection: "#D7C4BB",
+        rankForFirstColor: "#F75C2F",
+        rankForFirstInnerSection: "#EEA9A9",
         rankForSecondColor: "#2EA9DF",
         rankForSecondInnserSection: "#7DB9DE",
         rankForThirdColor: "#D9AB42",
@@ -48,7 +48,7 @@ module.exports = {
         "homepage-bg-size": "100%",
         "homepage-bg-lg-eb-size": "150% 120%",
         "homepage-bg-md-eb-size": "150% 150%",
-        "homepage-bg-xl-eb-size": "110% 100%",
+        "homepage-bg-xl-eb-size": "130% 100%",
         "homepage-bg-xs-eb-size": "150% 300%",
       },
       height: {

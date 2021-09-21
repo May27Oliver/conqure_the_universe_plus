@@ -1,17 +1,14 @@
 import React from "react";
-import classNames from "classnames/bind";
-import styles from "./index.module.css";
+import HomepageHeader from "component/HomepageHeader";
 import { useHistory } from "react-router";
 
-const cx = classNames.bind(styles);
-
-const Part2: React.FC = () => {
+const MemberPage: React.FC = () => {
   const history = useHistory();
 
   return (
-    <div>
+    <div className="MemberPage relative z-10">
+      <HomepageHeader />
       <h1
-        className={cx("hello")}
         onClick={() => {
           history.push("./part3");
         }}
@@ -22,4 +19,4 @@ const Part2: React.FC = () => {
   );
 };
 
-export default Part2;
+export default MemberPage;

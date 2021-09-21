@@ -1,16 +1,13 @@
 import React from "react";
-import classNames from "classnames/bind";
-import styles from "./index.module.css";
+import HomepageHeader from "component/HomepageHeader";
 import { useHistory } from "react-router";
 
-const cx = classNames.bind(styles);
-
-const Part3: React.FC = () => {
+const VideoPage: React.FC = () => {
   const history = useHistory();
   return (
-    <div>
+    <div className="Homepage relative z-10">
+      <HomepageHeader />
       <h1
-        className={cx("hello")}
         onClick={() => {
           history.push("./part4");
         }}
@@ -21,4 +18,4 @@ const Part3: React.FC = () => {
   );
 };
 
-export default Part3;
+export default VideoPage;
